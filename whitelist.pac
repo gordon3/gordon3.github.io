@@ -8,6 +8,12 @@
      ) {
          return "DIRECT";
      }
+     
+     if ( 
+         dnsDomainIs(host, "trackingtime.co") 
+     ) {
+         return "DIRECT";
+     }
 
      if (
      	 dnsDomainIs(host, "gordon3.com") || dnsDomainIs(host, ".gordon3.com") 
