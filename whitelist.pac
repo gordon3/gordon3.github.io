@@ -13,6 +13,8 @@
      	 dnsDomainIs(host, "gordon3.com") || dnsDomainIs(host, ".gordon3.com") 
      	 
          || dnsDomainIs(host, "youtube.com") || dnsDomainIs(host, ".youtube.com") 
+         || dnsDomainIs(host, "ytimg.com") || dnsDomainIs(host, ".ytimg.com") 
+         
          || dnsDomainIs(host, "google.com") || dnsDomainIs(host, ".google.com") 
          || dnsDomainIs(host, "gmail.com") || dnsDomainIs(host, ".gmail.com")
          || dnsDomainIs(host, "gstatic.com") || dnsDomainIs(host, ".gstatic.com")
