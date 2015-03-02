@@ -11,6 +11,7 @@
      
      if ( 
          dnsDomainIs(host, "trackingtime.co") 
+         || dnsDomainIs(host, "mixpanel.com") 
      ) {
          return "DIRECT";
      }
