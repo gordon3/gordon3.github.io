@@ -12,6 +12,8 @@
      if (
      	 dnsDomainIs(host, "gordon3.com") || dnsDomainIs(host, ".gordon3.com") 
      	 
+         || dnsDomainIs(host, "apple.com") || dnsDomainIs(host, ".apple.com") 
+         
          || dnsDomainIs(host, "youtube.com") || dnsDomainIs(host, ".youtube.com") 
          || dnsDomainIs(host, "ytimg.com") || dnsDomainIs(host, ".ytimg.com") 
          || dnsDomainIs(host, "googlevideo.com") || dnsDomainIs(host, ".googlevideo.com") 
