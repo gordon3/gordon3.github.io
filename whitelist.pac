@@ -14,6 +14,7 @@
      	 
          || dnsDomainIs(host, "basecamp.com") || dnsDomainIs(host, ".basecamp.com")
          || dnsDomainIs(host, "37signals.com") || dnsDomainIs(host, ".37signals.com")
+         || dnsDomainIs(host, "cdn.37img.com") || dnsDomainIs(host, ".cdn.37img.com")
          
          || dnsDomainIs(host, "bbc.co.uk") || dnsDomainIs(host, ".bbc.co.uk")
          || dnsDomainIs(host, "bbc.com") || dnsDomainIs(host, ".bbc.com")
