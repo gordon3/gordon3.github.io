@@ -12,6 +12,8 @@
      if (
      	 dnsDomainIs(host, "gordon3.com") || dnsDomainIs(host, ".gordon3.com") 
      	 
+         || dnsDomainIs(host, "basecamp.com") || dnsDomainIs(host, ".basecamp.com")
+         
          || dnsDomainIs(host, "bbc.co.uk") || dnsDomainIs(host, ".bbc.co.uk")
          || dnsDomainIs(host, "bbc.com") || dnsDomainIs(host, ".bbc.com")
          || dnsDomainIs(host, "static.bbci.co.uk") || dnsDomainIs(host, "static.bbci.co.uk")
