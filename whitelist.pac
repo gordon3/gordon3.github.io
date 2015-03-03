@@ -12,7 +12,7 @@
      if (
      	 dnsDomainIs(host, "gordon3.com") || dnsDomainIs(host, ".gordon3.com") 
      	 
-         || dnsDomainIs(host, "wsj.com") || dnsDomainIs(host, ".wsj.com")
+         || dnsDomainIs(host, "bbc.co.uk") || dnsDomainIs(host, ".bbc.co.uk")
          || dnsDomainIs(host, "wsj.net") || dnsDomainIs(host, ".wsj.net")
          
          || dnsDomainIs(host, "apple.com") || dnsDomainIs(host, ".apple.com") 
