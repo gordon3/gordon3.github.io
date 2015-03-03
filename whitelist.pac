@@ -16,7 +16,7 @@
          || dnsDomainIs(host, "bbc.com") || dnsDomainIs(host, ".bbc.com")
          || dnsDomainIs(host, "static.bbci.co.uk") || dnsDomainIs(host, "static.bbci.co.uk")
          || dnsDomainIs(host, "ichef.bbci.co.uk") || dnsDomainIs(host, "ichef.bbci.co.uk")
-         || dnsDomainIs(host, "news.bbcimage.co.uk") || dnsDomainIs(host, "news.bbcimage.co.uk")
+         || dnsDomainIs(host, "news.bbcimg.co.uk") || dnsDomainIs(host, "news.bbcimg.co.uk")
          
          || dnsDomainIs(host, "apple.com") || dnsDomainIs(host, ".apple.com") 
          
