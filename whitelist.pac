@@ -68,6 +68,7 @@
          || dnsDomainIs(host, "mymdcchart.com") || dnsDomainIs(host, ".mymdcchart.com")
          || dnsDomainIs(host, "athenahealth.com") || dnsDomainIs(host, ".athenahealth.com")
 
+         || dnsDomainIs(host, "capcu.org") || dnsDomainIs(host, ".capcu.org")
      ) {
          return "DIRECT";
      }
