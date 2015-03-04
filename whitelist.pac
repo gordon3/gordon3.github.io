@@ -65,6 +65,7 @@
          || dnsDomainIs(host, "godaddy.com") || dnsDomainIs(host, ".godaddy.com")
          
          || dnsDomainIs(host, "middakotaclinic.com") || dnsDomainIs(host, ".middakotaclinic.com")
+         || dnsDomainIs(host, "mymdcchart.com") || dnsDomainIs(host, ".mymdcchart.com")
 
      ) {
          return "DIRECT";
