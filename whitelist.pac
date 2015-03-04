@@ -69,7 +69,10 @@
          || dnsDomainIs(host, "athenahealth.com") || dnsDomainIs(host, ".athenahealth.com")
 
          || dnsDomainIs(host, "capcu.org") || dnsDomainIs(host, ".capcu.org")
+         
          || dnsDomainIs(host, "discovercard.com") || dnsDomainIs(host, ".discovercard.com")
+         || dnsDomainIs(host, "discover.com") || dnsDomainIs(host, ".discover.com")
+      
          || dnsDomainIs(host, "chase.com") || dnsDomainIs(host, ".chase.com")
          
          || dnsDomainIs(host, "huffingtonpost.com") || dnsDomainIs(host, ".huffingtonpost.com")
