@@ -75,6 +75,7 @@
          || dnsDomainIs(host, "huffingtonpost.com") || dnsDomainIs(host, ".huffingtonpost.com")
          || dnsDomainIs(host, "s.huffpost.com") || dnsDomainIs(host, ".s.huffpost.com")
          || dnsDomainIs(host, "i.huffpost.com") || dnsDomainIs(host, ".i.huffpost.com")
+         || (dnsDomainIs(host, ".huffpost.com") && shExpMatch(host, "s*.huffpost.com")) 
      ) {
          return "DIRECT";
      }
