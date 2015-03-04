@@ -73,6 +73,7 @@
          || dnsDomainIs(host, "chase.com") || dnsDomainIs(host, ".chase.com")
          
          || dnsDomainIs(host, "huffingtonpost.com") || dnsDomainIs(host, ".huffingtonpost.com")
+         || dnsDomainIs(host, "s.huffpost.com") || dnsDomainIs(host, "s.huffpost.com")
      ) {
          return "DIRECT";
      }
