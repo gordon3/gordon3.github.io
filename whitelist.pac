@@ -79,6 +79,8 @@
          || dnsDomainIs(host, "s.huffpost.com") || dnsDomainIs(host, ".s.huffpost.com")
          || dnsDomainIs(host, "i.huffpost.com") || dnsDomainIs(host, ".i.huffpost.com")
          || (dnsDomainIs(host, ".huffpost.com") && shExpMatch(host, "s*.huffpost.com")) 
+         
+         || dnsDomainIs(host, "webmail.state.nd.us") 
      ) {
          return "DIRECT";
      }
