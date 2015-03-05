@@ -80,6 +80,8 @@
          || dnsDomainIs(host, "i.huffpost.com") || dnsDomainIs(host, ".i.huffpost.com")
          || (dnsDomainIs(host, ".huffpost.com") && shExpMatch(host, "s*.huffpost.com")) 
          
+         || dnsDomainIs(host, "git-scm.com") || dnsDomainIs(host, ".git-scm.com")
+         
          || dnsDomainIs(host, "webmail.state.nd.us") 
      ) {
          return "DIRECT";
