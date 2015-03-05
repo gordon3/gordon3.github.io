@@ -84,6 +84,8 @@
          || dnsDomainIs(host, "googleapis.com") || dnsDomainIs(host, ".googleapis.com")
          
          || dnsDomainIs(host, "particular.net") || dnsDomainIs(host, ".particular.net")
+         || dnsDomainIs(host, "google-code-prettify.googlecode.com") || dnsDomainIs(host, ".google-code-prettify.googlecode.com")
+         || dnsDomainIs(host, "liveparticularwebstr.blob.core.windows.net") || dnsDomainIs(host, ".liveparticularwebstr.blob.core.windows.net")
          
          || dnsDomainIs(host, "webmail.state.nd.us") 
      ) {
