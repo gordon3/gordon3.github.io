@@ -81,6 +81,7 @@
          || (dnsDomainIs(host, ".huffpost.com") && shExpMatch(host, "s*.huffpost.com")) 
          
          || dnsDomainIs(host, "git-scm.com") || dnsDomainIs(host, ".git-scm.com")
+         || dnsDomainIs(host, "googleapis.com") || dnsDomainIs(host, ".googleapis.com")
          
          || dnsDomainIs(host, "webmail.state.nd.us") 
      ) {
