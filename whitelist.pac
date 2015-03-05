@@ -83,6 +83,8 @@
          || dnsDomainIs(host, "git-scm.com") || dnsDomainIs(host, ".git-scm.com")
          || dnsDomainIs(host, "googleapis.com") || dnsDomainIs(host, ".googleapis.com")
          
+         || dnsDomainIs(host, "particular.net") || dnsDomainIs(host, ".particular.net")
+         
          || dnsDomainIs(host, "webmail.state.nd.us") 
      ) {
          return "DIRECT";
