@@ -54,6 +54,7 @@
          || dnsDomainIs(host, "wikimedia.org") || dnsDomainIs(host, ".wikimedia.org")
 
          || dnsDomainIs(host, "microsoft.com") || dnsDomainIs(host, ".microsoft.com") 
+         || dnsDomainIs(host, "sec.s-msft.com") || dnsDomainIs(host, ".sec.s-msft.com") 
          
          || dnsDomainIs(host, "mozilla.org") || dnsDomainIs(host, ".mozilla.org")
 
