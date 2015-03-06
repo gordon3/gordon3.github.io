@@ -50,6 +50,7 @@
          || (dnsDomainIs(host, ".akamaihd.net") && shExpMatch(host, "fbstatic*.akamaihd.net")) 
          || (dnsDomainIs(host, ".akamaihd.net") && shExpMatch(host, "fbcdn*.akamaihd.net"))
 
+         || dnsDomainIs(host, "wikipedia.com") || dnsDomainIs(host, ".wikipedia.com") 
          || dnsDomainIs(host, "wikipedia.org") || dnsDomainIs(host, ".wikipedia.org") 
          || dnsDomainIs(host, "wikimedia.org") || dnsDomainIs(host, ".wikimedia.org")
 
