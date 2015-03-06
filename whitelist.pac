@@ -92,6 +92,8 @@
          || dnsDomainIs(host, "webmail.state.nd.us")
          
          || dnsDomainIs(host, "marthastewart.com") || dnsDomainIs(host, ".marthastewart.com")
+         
+         || dnsDomainIs(host, "kingarthurflour.com") || dnsDomainIs(host, ".kingarthurflour.com")
      ) {
          return "DIRECT";
      }
