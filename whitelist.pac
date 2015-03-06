@@ -99,6 +99,8 @@
          || dnsDomainIs(host, "redbox.com") || dnsDomainIs(host, ".redbox.com")
          
          || dnsDomainIs(host, "trello.com") || dnsDomainIs(host, ".trello.com")
+         || dnsDomainIs(host, "d78fikflryjgj.cloudfront.net") || dnsDomainIs(host, ".d78fikflryjgj.cloudfront.net")
+         || dnsDomainIs(host, "d2k1ftgv7pobq7.cloudfront.net") || dnsDomainIs(host, ".d2k1ftgv7pobq7.cloudfront.net")
      ) {
          return "DIRECT";
      }
