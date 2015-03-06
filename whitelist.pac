@@ -97,6 +97,8 @@
          || dnsDomainIs(host, "kingarthurflour.com") || dnsDomainIs(host, ".kingarthurflour.com")
          
          || dnsDomainIs(host, "redbox.com") || dnsDomainIs(host, ".redbox.com")
+         
+         || dnsDomainIs(host, "trello.com") || dnsDomainIs(host, ".trello.com")
      ) {
          return "DIRECT";
      }
