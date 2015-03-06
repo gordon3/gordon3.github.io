@@ -89,7 +89,9 @@
          || dnsDomainIs(host, "google-code-prettify.googlecode.com") || dnsDomainIs(host, ".google-code-prettify.googlecode.com")
          || dnsDomainIs(host, "liveparticularwebstr.blob.core.windows.net") || dnsDomainIs(host, ".liveparticularwebstr.blob.core.windows.net")
          
-         || dnsDomainIs(host, "webmail.state.nd.us") 
+         || dnsDomainIs(host, "webmail.state.nd.us")
+         
+         || dnsDomainIs(host, "marthastewart.com") || dnsDomainIs(host, ".marthastewart.com")
      ) {
          return "DIRECT";
      }
