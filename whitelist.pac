@@ -95,6 +95,8 @@
          || dnsDomainIs(host, "marthastewart.com") || dnsDomainIs(host, ".marthastewart.com")
          
          || dnsDomainIs(host, "kingarthurflour.com") || dnsDomainIs(host, ".kingarthurflour.com")
+         
+         || dnsDomainIs(host, "redbox.com") || dnsDomainIs(host, ".redbox.com")
      ) {
          return "DIRECT";
      }
