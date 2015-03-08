@@ -100,6 +100,8 @@
          
          || dnsDomainIs(host, "trello.com") || dnsDomainIs(host, ".trello.com")
          || dnsDomainIs(host, "cloudfront.net") || dnsDomainIs(host, ".cloudfront.net")
+         
+         || dnsDomainIs(host, "hpconnect.com") || dnsDomainIs(host, ".hpconnect.com")
      ) {
          return "DIRECT";
      }
