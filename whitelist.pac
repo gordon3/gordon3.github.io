@@ -102,6 +102,8 @@
          || dnsDomainIs(host, "cloudfront.net") || dnsDomainIs(host, ".cloudfront.net")
          
          || dnsDomainIs(host, "hpconnect.com") || dnsDomainIs(host, ".hpconnect.com")
+         
+         || dnsDomainIs(host, "samsclub.com") || dnsDomainIs(host, ".samsclub.com")
      ) {
          return "DIRECT";
      }
