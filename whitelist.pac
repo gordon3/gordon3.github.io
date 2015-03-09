@@ -104,6 +104,8 @@
          || dnsDomainIs(host, "hpconnect.com") || dnsDomainIs(host, ".hpconnect.com")
          
          || dnsDomainIs(host, "samsclub.com") || dnsDomainIs(host, ".samsclub.com")
+         
+         || dnsDomainIs(host, "safaribooksonline.com") || dnsDomainIs(host, ".safaribooksonline.com")
      ) {
          return "DIRECT";
      }
