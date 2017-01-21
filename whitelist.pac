@@ -2,7 +2,7 @@ function FindProxyForURL(url, host)
 {
     if (
         false 
-        || dnsDomainIs(host, "nd.gov") || dnsDomainIs(host, ".nd.gov") 
+        || dnsDomainIs(host, "googlesyndication.com") || dnsDomainIs(host, ".googlesyndication.com") 
        ) 
     {
         return "PROXY HTTP://127.0.0.1:52152";
