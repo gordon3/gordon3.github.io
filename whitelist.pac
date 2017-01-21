@@ -11,7 +11,8 @@ function FindProxyForURL(url, host)
         || dnsDomainIs(host, "moatads.com") || dnsDomainIs(host, ".moatads.com") 
         || dnsDomainIs(host, "postrelease.com") || dnsDomainIs(host, ".postrelease.com") 
         || dnsDomainIs(host, "vidora.com") || dnsDomainIs(host, ".vidora.com") 
-        || dnsDomainIs(host, "nr-data.net") || dnsDomainIs(host, ".nr-data.net") 
+        || dnsDomainIs(host, "nr-data.net") || dnsDomainIs(host, ".nr-data.net")  
+        || dnsDomainIs(host, "cxense.net") || dnsDomainIs(host, ".cxense.net") 
        ) 
     {
         return "PROXY HTTP://127.0.0.1:52152";
