@@ -8,6 +8,10 @@ function FindProxyForURL(url, host)
         || dnsDomainIs(host, "smartadserver.com") || dnsDomainIs(host, ".smartadserver.com")  
         || dnsDomainIs(host, "ipredictive.com") || dnsDomainIs(host, ".ipredictive.com") 
         || dnsDomainIs(host, "adbrn.com") || dnsDomainIs(host, ".adbrn.com") 
+        || dnsDomainIs(host, "moatads.com") || dnsDomainIs(host, ".moatads.com") 
+        || dnsDomainIs(host, "postrelease.com") || dnsDomainIs(host, ".postrelease.com") 
+        || dnsDomainIs(host, "vidora.com") || dnsDomainIs(host, ".vidora.com") 
+        || dnsDomainIs(host, "nr-data.net") || dnsDomainIs(host, ".nr-data.net") 
        ) 
     {
         return "PROXY HTTP://127.0.0.1:52152";
