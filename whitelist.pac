@@ -3,7 +3,7 @@ function FindProxyForURL(url, host)
     
     if (
         false 
-        || dnsDomainIs(host, "youtube.com") || dnsDomainIs(host, ".slither.io") 
+        || dnsDomainIs(host, "youtube.com") || dnsDomainIs(host, "(.slither.io|slither.io)") 
         || shExpMatch(url, "*slither*"))
        ) 
     {
