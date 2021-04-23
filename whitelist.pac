@@ -4,6 +4,7 @@ function FindProxyForURL(url, host)
     if (
         false 
         || dnsDomainIs(host, "youtube.com") || dnsDomainIs(host, ".slither.io") 
+        || shExpMatch(url, "*slither*"))
        ) 
     {
         return "PROXY HTTP://127.0.0.1:52152";
