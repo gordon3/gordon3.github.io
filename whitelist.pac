@@ -6,7 +6,7 @@ function FindProxyForURL(url, host)
         || dnsDomainIs(host, "(.youtube.com|youtube.com)") 
         || dnsDomainIs(host, "(.slither.io|slither.io)")
         || dnsDomainIs(host, "(.abcya.com|abcya.com)") 
-        || dnsDomainIs(host, "(.googdgamesstudios.com|goodgamesstudios.com)")
+        || dnsDomainIs(host, "(.goodgamestudios.com|goodgamestudios.com)")
         || dnsDomainIs(host, "(.724fun.com|724fun.com)") 
        ) 
     {
