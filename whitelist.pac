@@ -3,8 +3,11 @@ function FindProxyForURL(url, host)
     
     if (
         false 
-        || dnsDomainIs(host, "youtube.com") || dnsDomainIs(host, "(.slither.io|slither.io)") 
-        || shExpMatch(url, "*slither*"))
+        || dnsDomainIs(host, "(.youtube.com|youtube.com)") 
+        || dnsDomainIs(host, "(.slither.io|slither.io)")
+        || dnsDomainIs(host, "(.abcya.com|abcya.com)") 
+        || dnsDomainIs(host, "(.googdgamesstudios.com|goodgamesstudios.com)")
+        || dnsDomainIs(host, "(.724fun.com|724fun.com)") 
        ) 
     {
         return "PROXY HTTP://127.0.0.1:52152";
